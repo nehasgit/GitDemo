@@ -21,6 +21,8 @@ public class BasicsAnnotation {
 	@BeforeClass
 	public void Demo() {
 		System.out.println(" will print after the 1st method of the current class");
+		System.out.println(" will print after the 1st method of the current class1");
+		System.out.println(" will print after the 1st method of the current class2");
 	}
 	
 	@AfterTest
